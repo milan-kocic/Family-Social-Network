@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": 10,
+      "name": "Bojan",
+      "surname": "Petrovic",
+      "username": "boki1996",
+      "password": "1111",
+      "birthYear": 1996,
+      "city": "Nis"
+    },
+    {
+      "id": 11,
+      "name": "Marko",
+      "surname": "Markovic",
+      "username": "mare88",
+      "password": "2222",
+      "birthYear": 1988,
+      "city": "Beograd"
+    },
+    {
+      "id": 12,
+      "name": "Jovan",
+      "surname": "Jovanovic",
+      "username": "joca55",
+      "password": "zima",
+      "birthYear": 1955,
+      "city": "Novi Sad"
+    },
+    {
+      "id": 13,
+      "name": "Milos",
+      "surname": "Misic",
+      "username": "misa1991",
+      "password": "grad91",
+      "birthYear": 1991,
+      "city": "Aleksinac"
+    }
+  ],
+  "pictures": [
+    {
+      "image": "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZmlsZSUyMHBob3Rvc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "my photo",
+      "userId": 10,
+      "likes": 103,
+      "profilePhoto": true,
+      "id": 1001
+    },
+    {
+      "image": "https://img.freepik.com/free-photo/group-kids-friends-arm-around-sitting-together_1150-3905.jpg?w=2000",
+      "description": "photo with friends",
+      "userId": 10,
+      "likes": 27,
+      "profilePhoto": false,
+      "id": 1002
+    },
+    {
+      "image": "https://media.gettyimages.com/id/1179420343/photo/smiling-man-outdoors-in-the-city.jpg?s=612x612&w=gi&k=20&c=n663L5A4XlwcUvNpX_eu4ur1sMmrD6dt_c1mbWjrLXk=",
+      "description": "profile photo",
+      "userId": 11,
+      "likes": 16,
+      "profilePhoto": true,
+      "id": 1003
+    },
+    {
+      "image": "https://images.squarespace-cdn.com/content/v1/5cb618a4755be255f4b4d181/887caf6e-712d-439c-9a21-f1daafd09c32/family+photographers+victoria+bc_0029.jpg?format=1000w",
+      "description": "photo with family",
+      "userId": 11,
+      "likes": 5,
+      "profilePhoto": false,
+      "id": 1004
+    },
+    {
+      "image": "https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1768126784.jpg",
+      "description": "profile photo",
+      "userId": 12,
+      "likes": 36,
+      "profilePhoto": true,
+      "id": 1005
+    },
+    {
+      "id": 1006,
+      "profilePhoto": false,
+      "image": "https://images.squarespace-cdn.com/content/v1/5cb618a4755be255f4b4d181/887caf6e-712d-439c-9a21-f1daafd09c32/family+photographers+victoria+bc_0029.jpg?format=1000w",
+      "description": "family photo",
+      "userId": 12,
+      "likes": 55
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1591604466107-ec97de577aff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2VkZGluZyUyMGNvdXBsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "wedding photo",
+      "userId": 13,
+      "likes": 66,
+      "profilePhoto": false,
+      "id": 1007
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501__340.jpg",
+      "description": "Lorem ipsum dolor sit amet.",
+      "userId": "12",
+      "likes": 3,
+      "profilePhoto": false,
+      "id": 1011
+    }
+  ]
+}

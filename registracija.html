@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registracija</title>
+  </head>
+  <body class="body-registracija">
+    <header>
+      <div class="linkovi">
+        <a href="index.html">HOME</a>
+        <a href="registracija.html">REGISTRATION</a>
+        <a href="prijava-korisnika.html">LOGIN</a>
+        <a href="korisnici.html">USERS</a>
+        <a href="profilkorisnika.html">USER PROFILE</a>
+      </div>
+    </header>
+    <section class="registracija">
+      <form class="form-registracija">
+        <label for="">Name:</label>
+        <input
+          type="text"
+          id="input-name"
+          placeholder="Enter your name"
+          required
+        />
+        <label for="">Surname:</label>
+        <input
+          type="text"
+          id="input-surname"
+          placeholder="Enter your surname"
+          required
+        />
+        <label for="">Username:</label>
+        <input
+          type="text"
+          id="input-username"
+          placeholder="Enter your username"
+          required
+        />
+        <label for="">Password:</label>
+        <input
+          type="password"
+          id="input-password"
+          placeholder="Enter your password"
+          required
+        />
+        <label for="">Birthyear:</label>
+        <input
+          type="number"
+          id="input-birthyear"
+          placeholder="Enter your birthyear"
+          required
+        />
+        <label for="">City:</label>
+        <input
+          type="text"
+          id="input-city"
+          placeholder="Enter your city name"
+          required="required"
+        />
+        <button id="sign-up" type="submit">Sign up</button>
+      </form>
+    </section>
+    <script src="registracija.js" type="module"></script>
+  </body>
+</html>

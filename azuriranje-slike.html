@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Azuriranje slike</title>
+  </head>
+  <body class="body-registracija">
+    <div class="linkovi">
+      <a href="index.html">HOME</a>
+      <a href="registracija.html">REGISTRATION</a>
+      <a href="prijava-korisnika.html">LOGIN</a>
+      <a href="korisnici.html">USERS</a>
+    </div>
+    <div class="registracija">
+      <h1 style="margin-bottom: 50px">CHANGE YOUR PICTURE</h1>
+      <form class="form-registracija">
+        <label for="">New image: </label>
+        <input type="text" class="description" id="picture-url" />
+        <label for="">New description:</label>
+        <textarea
+          name=""
+          class="description"
+          id="picture-description"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <div style="margin-bottom: 20px">
+          <label for="">Profilna slika</label>
+          <input type="checkbox" id="profilna-slika" />
+        </div>
+        <button id="btn-update">Update picture</button>
+      </form>
+    </div>
+    <script src="azuriranje-slike.js" type="module"></script>
+  </body>
+</html>
